@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+.list{
+    list-style: none;
+}
+
+/* Header */
+.page-header{
+    text-decoration: none;
+}
+
+/* logo */
+.logo {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+
+.logo-item {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #4D5AE5;;
+}
+
+/*Link for other pages*/
+.site-nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+    text-decoration: none;
+}
+
+/* Adress */
+.adress-items {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #434455;
+}
+
+/* Hero sections */
+.hero {
+    background: #2E2F42;
+}
+
+.hero-caption {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: #4D5AE5;
+    color: #ffffff;
+}
+
+/* Feature */
+.feature-item {
+    list-style: none;
+}
+
+.feature-captions {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+
+.feature-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* What are we doing */
+.work-caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.work-item {
+    list-style: none;
+}
