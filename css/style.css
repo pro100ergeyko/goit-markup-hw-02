@@ -1,8 +1,14 @@
+:root {
+    --primery-text-color: #434455;
+    --primery-background-color: #ffffff;
+    --title-text-color: #2E2F42;
+
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    color: #434455;
-    background-color: #ffffff;
+    color: var(--primery-text-color);
+    background-color: var(--primery-background-color);
     letter-spacing: 0.02em;
 }
 
@@ -21,7 +27,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
-    color: #2E2F42;
+    color: var(--title-text-color);
 }
 
 .logo-item {
@@ -30,7 +36,6 @@ body {
     line-height: 24px;
     color: #4D5AE5;
     font-family: 'Raleway';
-    font-style: normal;
     letter-spacing: 0.03em;
 }
 
@@ -39,7 +44,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #434455;
+    color: var(--title-text-color);
     text-decoration: none;
 }
 
@@ -50,11 +55,10 @@ body {
 
 /* Adress */
 .adress-items {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
-    color: #434455;
+    color: var(--title-text-color);
 }
 
 .adress-items:hover,
@@ -64,7 +68,7 @@ body {
 
 /* Hero sections */
 .hero {
-    background: #2E2F42;
+    background: var(--primery-text-color);
 }
 
 .hero-caption {
@@ -72,7 +76,7 @@ body {
     font-size: 56px;
     line-height: 60px;
     text-align: center;
-    color: #ffffff;
+    color: var(--primery-background-color);
 }
 
 .hero-btn {
@@ -80,7 +84,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     background: #4D5AE5;
-    color: #ffffff;
+    color: var(--primery-background-color);
 }
 
 /* Feature */
@@ -92,11 +96,10 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #2E2F42;
+    color: var(--title-text-color);
 }
 
 .feature-title {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
@@ -108,7 +111,7 @@ body {
     line-height: 40px;
     text-align: center;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--title-text-color);
 }
 
 .work-item {
@@ -122,7 +125,7 @@ body {
     line-height: 40px;
     text-align: center;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--title-text-color);
 }
 
 .team-title {
@@ -130,11 +133,10 @@ body {
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    color: #2E2F42;
+    color: var(--title-text-color);
 }
 
 .team-prof {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -142,7 +144,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: #2E2F42;
+    background-color: var(--title-text-color);
 }
 
 .logo-item2 {
@@ -151,13 +153,46 @@ footer {
     line-height: 21px;
     color: #F4F4FD;
     font-family: 'Raleway';
-    font-style: normal;
     letter-spacing: 0.03em;
 }
 
 .footer-desc {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #E7E9FC;
+}
+
+/* Works */
+.btn-item {
+    justify-content: center;
+    align-items: center;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D5AE5;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+
+.btn-item:hover,
+.btn-item:focus {
+    cursor: pointer;
+    background: #404BBF;
+    color: var(--primery-background-color);
+}
+
+.work-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+
+.work-desc {
+    font-size: 16px;
+    line-height: 24px;
 }
