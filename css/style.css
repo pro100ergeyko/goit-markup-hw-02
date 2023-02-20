@@ -1,8 +1,9 @@
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: #434455;
     background-color: #ffffff;
+    letter-spacing: 0.02em;
 }
 
 .list{
@@ -27,7 +28,10 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
-    color: #4D5AE5;;
+    color: #4D5AE5;
+    font-family: 'Raleway';
+    font-style: normal;
+    letter-spacing: 0.03em;
 }
 
 /*Link for other pages*/
@@ -39,6 +43,11 @@ body {
     text-decoration: none;
 }
 
+.site-nav-link:hover,
+.site-nav-link:focus {
+    color: #4D5AE5;
+}
+
 /* Adress */
 .adress-items {
     font-weight: 400;
@@ -46,6 +55,11 @@ body {
     line-height: 24px;
     text-decoration: none;
     color: #434455;
+}
+
+.adress-items:hover,
+.adress-items:focus {
+    color: #4D5AE5;
 }
 
 /* Hero sections */
@@ -99,4 +113,51 @@ body {
 
 .work-item {
     list-style: none;
+}
+
+/* Our Team */
+.team-caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.team-prof {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #2E2F42;
+}
+
+.logo-item2 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F4F4FD;
+    font-family: 'Raleway';
+    font-style: normal;
+    letter-spacing: 0.03em;
+}
+
+.footer-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7E9FC;
 }
