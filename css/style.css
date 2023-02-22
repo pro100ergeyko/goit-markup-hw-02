@@ -52,8 +52,6 @@ body {
 .site-nav-link:hover,
 .site-nav-link:focus {
     color: var(--link-color);
-    text-decoration: underline;
-    text-decoration-color: var(--link-color-hover);
 }
 
 /* Adress */
