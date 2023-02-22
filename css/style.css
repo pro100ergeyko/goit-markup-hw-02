@@ -32,17 +32,12 @@ body {
     font-size: 18px;
     line-height: 1.4;
     color: var(--link-color);
-    font-family: 'Roboto';
+    font-family: 'Raleway';
     letter-spacing: 0.03em;
 }
 
 .logo-item {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.4;
     color: var(--title-text-color);
-    font-family: 'Raleway';
-    letter-spacing: 0.03em;
 }
 
 /*Link for other pages*/
@@ -158,12 +153,7 @@ footer {
 }
 
 .logo-item2 {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.2;
     color: var(--btn-background-color);
-    font-family: 'Raleway';
-    letter-spacing: 0.03em;
 }
 
 .footer-desc {
